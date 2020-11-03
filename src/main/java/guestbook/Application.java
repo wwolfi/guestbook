@@ -37,6 +37,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @author Paul Henke
  * @author Oliver Drotbohm
  */
+//test git with this comment
 @SpringBootApplication
 public class Application {
 

@@ -38,6 +38,7 @@
 					</div>
 					<div class="card-body">
 						<blockquote class="entrytext" th:text="${entry.text}"></blockquote>
+						<blockquote class="entrytext" th:text="'E-mail me at:  ' + ${entry.email}"></blockquote>
 					</div>
 					<div class="card-footer">
 						<footer class="date" th:text="${#temporals.format(entry.date, 'dd. MMMM yyyy - HH:mm')}">Datum</footer>
